@@ -18,3 +18,21 @@
 # 4. Das Programm führt die Berechnung durch und gibt das Ergebnis aus.
 
 # Optional: Erweitern Sie den Taschenrechner um weitere Funktionen wie Potenzierung oder Modulo.
+first_number = input("Gib die erste Zahl ein:")
+second_number = input("Gib die zweite Zahl ein:")
+operator = input("Gib den operator +, -, *, / ein:")
+
+first_number = float(first_number)
+second_number = float(second_number)
+# operator = str(operator)
+
+if(operator == "+"):
+  print(first_number+second_number)
+elif(operator == "-"):
+  print(first_number-second_number)
+elif(operator == "*"):
+  print(first_number*second_number)
+elif(operator == "/"):
+  print(first_number/second_number)
+else:
+  print(operator+" ist nicht bekannt!")
